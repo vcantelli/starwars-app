@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  web:
+    build: .                 # Build the image using the Dockerfile in the current directory
+    ports:
+      - "3000:3000"          # Map port 3000 of the container to port 3000 on the host
+    environment:
+      - NODE_ENV=production   # Set the NODE_ENV environment variable to production
