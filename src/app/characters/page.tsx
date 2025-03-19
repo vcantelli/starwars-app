@@ -15,21 +15,9 @@ import Loading from "../loading";
 import { Spinner } from "@/components/common/ImageContainer";
 
 /**
- * Container for the characters page.
- */
-export const Container = styled.div`
-  min-height: 100vh;
-  width: 100%;
-  padding: 1rem;
-  background-color: #151515;
-  display: grid;
-  place-content: center;
-`;
-
-/**
  * Grid layout for character cards.
  */
-export const CardsGrid = styled.div`
+const CardsGrid = styled.div`
   padding: 0 30px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Dynamically adjust number of cards per row */
