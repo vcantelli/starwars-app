@@ -50,8 +50,8 @@ A React application that displays detailed information about Star Wars character
 1. **Clone the repository:**
 
    ```
-   git clone [https://github.com/your-username/starwars-character-app.git](https://github.com/vcantelli/starwars-app.git)
-   cd starwars-character-app
+   git clone https://github.com/vcantelli/starwars-app.git
+   cd starwars-app
    ```
 
 2. **Install dependencies:**
