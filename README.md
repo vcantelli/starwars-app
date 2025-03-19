@@ -2,6 +2,11 @@
 
 A React application that displays detailed information about Star Wars characters using data from the [SWAPI](https://swapi.dev/) and images from the [Star Wars Databank](https://starwars-databank.vercel.app/). The app features pagination, search, filtering, detailed modal views for characters, and a mocked JWT authentication system.
 
+**To log in, use the following credentials:**
+  
+  - **Username**: `admin`
+  - **Password**: `password123`
+
 ---
 
 ## Table of Contents
